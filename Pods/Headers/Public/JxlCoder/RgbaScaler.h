@@ -1,0 +1,1 @@
+../../../JxlCoder/Sources/jxlc/RgbaScaler.h

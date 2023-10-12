@@ -1,0 +1,1 @@
+../../../JxlCoder/Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/codestream_header.h

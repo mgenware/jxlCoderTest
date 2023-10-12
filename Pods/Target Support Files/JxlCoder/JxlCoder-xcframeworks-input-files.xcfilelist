@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/JxlCoder/JxlCoder-xcframeworks.sh
+${PODS_ROOT}/JxlCoder/Sources/Frameworks/libbrotlicommon.xcframework
+${PODS_ROOT}/JxlCoder/Sources/Frameworks/libbrotlidec.xcframework
+${PODS_ROOT}/JxlCoder/Sources/Frameworks/libbrotlienc.xcframework
+${PODS_ROOT}/JxlCoder/Sources/Frameworks/libhwy.xcframework
+${PODS_ROOT}/JxlCoder/Sources/Frameworks/libjxl.xcframework
+${PODS_ROOT}/JxlCoder/Sources/Frameworks/libjxl_threads.xcframework

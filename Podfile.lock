@@ -1,0 +1,16 @@
+PODS:
+  - JxlCoder (1.2.4)
+
+DEPENDENCIES:
+  - JxlCoder
+
+SPEC REPOS:
+  trunk:
+    - JxlCoder
+
+SPEC CHECKSUMS:
+  JxlCoder: 556f10b9042cc21a6baeea7b14c45a4a28a52946
+
+PODFILE CHECKSUM: bc528de9c166a2da027fd59c2f5b02647b7e780d
+
+COCOAPODS: 1.13.0

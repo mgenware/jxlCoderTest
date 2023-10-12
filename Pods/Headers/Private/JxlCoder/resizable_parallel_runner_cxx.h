@@ -1,0 +1,1 @@
+../../../JxlCoder/Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/resizable_parallel_runner_cxx.h

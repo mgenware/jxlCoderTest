@@ -1,0 +1,6 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JxlCoder/libbrotlicommon.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JxlCoder/libbrotlidec.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JxlCoder/libbrotlienc.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JxlCoder/libhwy.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JxlCoder/libjxl.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JxlCoder/libjxl_threads.framework

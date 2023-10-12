@@ -1,0 +1,6 @@
+module JxlCoder {
+  umbrella header "JxlCoder-umbrella.h"
+
+  export *
+  module * { export * }
+}
