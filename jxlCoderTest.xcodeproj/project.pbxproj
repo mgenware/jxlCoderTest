@@ -44,7 +44,6 @@
 				4DE84FBCDE9B91684DE4C753 /* Pods-jxlCoderTest.debug.xcconfig */,
 				44212B597857B4B924F59240 /* Pods-jxlCoderTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -337,6 +336,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgenware.jxlCoderTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +363,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgenware.jxlCoderTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

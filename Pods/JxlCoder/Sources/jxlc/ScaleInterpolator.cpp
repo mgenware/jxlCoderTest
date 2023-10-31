@@ -31,6 +31,10 @@
 using namespace half_float;
 using namespace std;
 
+#if defined(__clang__)
+#pragma clang fp contract(fast) exceptions(ignore) reassociate(on)
+#endif
+
 // P Found using maxima
 //
 // y(x) := 4 * x * (%pi-x) / (%pi^2) ;
@@ -206,19 +210,19 @@ inline T sinc(T x) {
 template <typename T>
 inline T LanczosWindow(T x, const T a) {
     if (abs(x) < a) {
-        return sinc(T(M_PI) * x) * sinc(T(M_PI) * x / a);
+        T rv = T(M_PI) * x;
+        return sinc(rv) * sinc(rv / a);
     }
     return T(0.0);
 }
 
 template <typename T>
 inline T HannWindow(T x, const T length) {
-    if (abs(x) <= length / 2) {
-        T cx = fastCos(T(M_PI)*x / length);
-        return (1/length)*cx*cx;
-    } else {
-        return T(0);
+    const float size = length * 2 - 1;
+    if (abs(x) <= size) {
+        return 0.5f * (1 - fastCos(T(2)*T(M_PI) * size / length));
     }
+    return T(0);
 }
 
 template <typename T>

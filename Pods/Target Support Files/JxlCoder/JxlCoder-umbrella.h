@@ -10,10 +10,15 @@
 #endif
 #endif
 
+#import "CJpegXLAnimatedDecoder.h"
+#import "CJpegXLAnimatedEncoder.h"
+#import "JxlDefinitions.h"
 #import "JxlInternalCoder.h"
 #import "RgbaScaler.h"
 #import "ScaleInterpolator.h"
 #import "half.hpp"
+#import "JxlAnimatedDecoder.hpp"
+#import "JxlAnimatedEncoder.hpp"
 #import "JXLSystemImage.hpp"
 #import "RgbRgbaConverter.hpp"
 #import "XScaler.hpp"

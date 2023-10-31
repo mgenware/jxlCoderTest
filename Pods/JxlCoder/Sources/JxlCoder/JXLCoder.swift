@@ -1,8 +1,26 @@
 //
 //  JXLCoder.swift
-//  Jxl Coder
+//  Jxl Coder [https://github.com/awxkee/jxl-coder-swift]
 //
 //  Created by Radzivon Bartoshyk on 27/08/2023.
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy
+//  of this software and associated documentation files (the "Software"), to deal
+//  in the Software without restriction, including without limitation the rights
+//  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//  copies of the Software, and to permit persons to whom the Software is
+//  furnished to do so, subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included in
+//  all copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+//  THE SOFTWARE.
 //
 
 import Foundation
@@ -27,7 +45,7 @@ public class JXLCoder {
     /***
      - Returns: If provided data is possible valid JXL image
      **/
-    public static func isJXL(data: Data) throws -> Bool {
+    public static func isJXL(data: Data) -> Bool {
         return startsWith(magic1, ofLength: magic1.count, in: data) || startsWith(magic2, ofLength: magic2.count, in: data)
     }
 
@@ -38,7 +56,7 @@ public class JXLCoder {
     public static func decode(srcStream: InputStream, 
                               rescale: CGSize = .zero,
                               pixelFormat: JXLPreferredPixelFormat = .optimal,
-                              sampler: JxlSampler = .mitchell) throws -> JXLPlatformImage {
+                              sampler: JxlSampler = .hann) throws -> JXLPlatformImage {
         return try shared.decode(srcStream, rescale: rescale, pixelFormat: pixelFormat, sampler: sampler)
     }
 
@@ -49,7 +67,7 @@ public class JXLCoder {
     public static func decode(url: URL, 
                               rescale: CGSize = .zero,
                               pixelFormat: JXLPreferredPixelFormat = .optimal,
-                              sampler: JxlSampler = .mitchell) throws -> JXLPlatformImage {
+                              sampler: JxlSampler = .hann) throws -> JXLPlatformImage {
         guard let srcStream = InputStream(url: url) else {
             throw NSError(domain: "JXLCoder", code: 500,
                           userInfo: [NSLocalizedDescriptionKey: "JXLCoder cannot open provided URL"])
@@ -64,7 +82,7 @@ public class JXLCoder {
     public static func decode(data: Data, 
                               rescale: CGSize = .zero,
                               pixelFormat: JXLPreferredPixelFormat = .optimal,
-                              sampler: JxlSampler = .mitchell) throws -> JXLPlatformImage {
+                              sampler: JxlSampler = .hann) throws -> JXLPlatformImage {
         let srcStream = InputStream(data: data)
         return try shared.decode(srcStream, rescale: rescale, pixelFormat: pixelFormat, sampler: sampler)
     }

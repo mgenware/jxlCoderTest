@@ -7,53 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C0CF19CC6ECB94AA2888DBAF329672 /* jxl_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB6D14A6AD34A80BA2C454F67FBC0DB /* jxl_export.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0515D0032703B26EC8086F049AC3744B /* codestream_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 622B2B17AA24F5AABD29A9AFF5242F7D /* codestream_header.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		05A475AB0FE12C7CC6AF9D98B91B7710 /* encode_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC4DDD319066CF97265668966E4BC9A /* encode_cxx.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		11DC8BCAEB0765470AD61C68DE9F7F4E /* JxlInternalCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A4D15B19AD233C421F69BD9770DA34 /* JxlInternalCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12BEBFA67E72F9359EF2BE1E12FC70B6 /* memory_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BD7397ADA237A97C9B4FB2ABCD0AE8 /* memory_manager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2ABFB54765CAE6410A330940E5483077 /* JxlWorker.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9DA28429852A535D202D1CAEF8F65674 /* JxlWorker.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		2FF9F2E0BC0CE71B74A8F4C811F78379 /* thread_parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC906D928C3FB5FF9C66F98FD8D3873 /* thread_parallel_runner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		31220C5ECC3BF26AFE6A5A5A9098A743 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAB9ABA193CA605362CEAF400128D4A /* jpeglib.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		33E0BB66DAED0EA2D79847C16C5DA3C8 /* RgbRgbaConverter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8EC8A7A69FCF13AD0847047377151460 /* RgbRgbaConverter.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		35EFB1C84B851775B70A9F3277EB2C3A /* JXLSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEBDFF4A00E67ED4A9AE1B8E58C7B3B /* JXLSupport.swift */; };
-		364D4F831F05285EE82D687F71947B3E /* JXLSystemImage.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6325D0B053703A0910AB4BE4462EAA8F /* JXLSystemImage.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		3C152970CEEA38336A88321D197987F4 /* cms_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = E32058C06AC2CE072E106292A36AF4F3 /* cms_interface.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		450E0559A4A1EEB80EB689B2419008C5 /* parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = B01923C2BCC17841431AF98D235FB1EB /* parallel_runner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45E921785D4FD106331D9A7EFFEB7F96 /* ScaleInterpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1D58B055BC1601703B218DC018DF0F /* ScaleInterpolator.cpp */; };
-		48C9A6A47CBF311D82F3AF670873DDA9 /* JxlInternalCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6F066267ABF97E24BD173ED400BBAEC /* JxlInternalCoder.mm */; };
-		4B4FA9065EF5F090E382627BA818E726 /* ScaleInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = B681E8A94D83A3564A794A8729AD44EA /* ScaleInterpolator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		57571AA4518EF2F34AE578002E22CB41 /* jxl_threads_export.h in Headers */ = {isa = PBXBuildFile; fileRef = B92FF106EF5517589F4FFEDFEC254F1B /* jxl_threads_export.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6203BA80650E423D18A2B673B95C8D77 /* RgbRgbaConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = D8E57458BE0165C7EAC396D545659D5C /* RgbRgbaConverter.mm */; };
-		677FA30B4DAFD6A1B046CBA02EF798F1 /* resizable_parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2B1A0F07DD0E12ABD52BAB27AF2AF4 /* resizable_parallel_runner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		785AB807A716BF7D4645E0BBB79A709C /* JXLSystemImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 48307EABBE33B6564D88DC5E0F38E5A6 /* JXLSystemImage.mm */; };
-		79077359EE0AEB123BCAA46B52B1B8AD /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3B155DA68A37357A1002AA5B565CD0 /* jmorecfg.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8199AE674571D8DDAD8FF622368D102E /* half.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FD366EBA31A67A1F0117914FA09E95A6 /* half.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		8C7597A09ABBA072C9EEA24C50737EF2 /* stats.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CF9C088B2329B7FBC502A556A708C6 /* stats.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		99B23763907DADFA09EA44418A3D4B20 /* JXLCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E043ABDD1F5B1D66F30461C7EE2C3 /* JXLCoder.swift */; };
-		A318BE08799AEF1C5F626222919DC409 /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA5C60842FE29DDC0A846EFA3BBA753 /* jconfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A342ACBFC0844BACDB69716892B4C7C0 /* resizable_parallel_runner_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 385CC75E029316BB33B6074EB39163D2 /* resizable_parallel_runner_cxx.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A8C206194AD3D934D3E617DFC36545F9 /* XScaler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = BEC7C8FDD36DEDB097A9FF79D8758FC7 /* XScaler.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		A8FC6F48C033489E742AB8B4ECC0D0C1 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 54323DF57DC3A5075F9906AB3BC16EC1 /* decode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA41DDCA60CAD21421492601B12074A1 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7199F85B90966DB88D06DB6CCBCE73 /* types.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ADE0BF16C0797D55DD6DBD8E18EA9671 /* RgbaScaler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98823F47B155D1E679C242CC690B7C07 /* RgbaScaler.mm */; };
-		AE64A4ADAC65C5CB560412A2959BEF84 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBDDB5A96A8C97EC9D6AC70CC1C16A2 /* version.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B2543144FCB2179BC2A90BA78F67B189 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D130D54F3E839BFF501FC2373F0A41A /* encode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0149407F4B4D043AE655E17379852A67 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = C91662F9B3B1505538FAB22AAA9D8D89 /* version.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05479DD34DBF8D29652BA04B7EDEF9CA /* ScaleInterpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA19E59693F27376137116307A4A68 /* ScaleInterpolator.cpp */; };
+		159CC4668EFBC925BCD6AC0C103B4CDB /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE6283A9DBE350DFD24BEE64949641E /* jconfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23BBE9D33E18E3923B82D214DD1FF7AE /* CJpegXLAnimatedDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 16AEABFEECAA725B9421290ADFDBFDFB /* CJpegXLAnimatedDecoder.mm */; };
+		3125B366BDF9199ABC9EA5D4E7CEA0D7 /* JXLCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ECBC6473B8078103896C0DED5EA815 /* JXLCoder.swift */; };
+		36D04D889541792CC4742216758354B3 /* JXLAnimatedDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1EC9D7A581EABC55EC238920E52DE /* JXLAnimatedDecoder.swift */; };
+		39FFF2F2F43A47021E2BFC8EA4416D80 /* JxlAnimatedEncoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B9158C5A1F84D664D6B3E37CF144C35 /* JxlAnimatedEncoder.cpp */; };
+		3B2FE9C92DBDB126897EAC6C177ED972 /* JxlCoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 039309ECFB1237F04B1239BBBB7103F1 /* JxlCoder-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C0925B85678997227F37EEA323892D7 /* JXLSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A0620171A443E4751249C17AFDD45 /* JXLSupport.swift */; };
+		3E797DA22D5D8193FE36CDDD9D9C880E /* XScaler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 72F0BEBD8B60F9CF10C4BD094B826AAE /* XScaler.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		3ED9705223ABBBE021FE7DDA58CD824D /* JXLAnimatedEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11BED044BBEE5AFF1D74877B9CF3879 /* JXLAnimatedEncoder.swift */; };
+		3EED18D3AF8D121237FD85A8A9D6541F /* JxlAnimatedEncoder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 97CAC46957E2D8644FC3D6C57F53A39B /* JxlAnimatedEncoder.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		44745FB0122BC0723AEC3CF229A1AFF8 /* resizable_parallel_runner_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6BA228E692DCE63B847400C7F6808A /* resizable_parallel_runner_cxx.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		487544E92E152CEC565AD5E883E00B82 /* encode_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A85DCE663160704DBCBEA51F4DED46 /* encode_cxx.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F4E8515351B3C54E1009770E2858D20 /* JXLSystemImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6E95FF8CF6DFAED3D5F707F3BCAEDC5A /* JXLSystemImage.mm */; };
+		60B19725D3C719EABD9F9668659B70A2 /* resizable_parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = C2430A1FB06AC71B3C4D87A818962384 /* resizable_parallel_runner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64E209850DF46CAD4777F22CB5BE2E97 /* JxlInternalCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 547A6E86B5E6A26F56F8DC7B0B4F9492 /* JxlInternalCoder.mm */; };
+		6F4DED718BA37EF029999BA8591D455F /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 2509189B60CBEC94B792305FD78D4C8A /* types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		708F3FA5C3DD9B4F2637B3EEF3722952 /* JxlCoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CF65DEFB79D7227B134B68F21AB472 /* JxlCoder-dummy.m */; };
+		726C97AF7886E4F82818C0AACD5725AD /* JxlWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18F6934788F8D037F60230BD9B6E9E0 /* JxlWorker.cpp */; };
+		77902D9AB98A1E3EE9CB266F209A556A /* RgbRgbaConverter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C35DCD8881AD457779167964837DC8EA /* RgbRgbaConverter.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		794226EE569025D7D120D0A7BD943AC7 /* JxlInternalCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BECF27721D80EDADAA994D69D711399 /* JxlInternalCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86974660851A38C7CECC5445E0C52332 /* decode_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = B612BE6D6184703AFBA0ACEE8FD93CD9 /* decode_cxx.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87355681EA8775790A9346E36863948A /* ScaleInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D94BFE58DFD4AC23C75AC9ABF4AAE7 /* ScaleInterpolator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CC168815FE6E5F52FE54A278D1A44C3 /* RgbaScaler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82FD192357824FB070BF207F35DFF955 /* RgbaScaler.mm */; };
+		8CD4C53AAC730E86B0B8483B1AD1373B /* codestream_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 83255B6861D5327DF7797A06FBC281A7 /* codestream_header.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		914C9F216344407D51D4380F7DCCE498 /* JxlWorker.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 480BD1B1A2BD53A7A2F866C0774BA0D7 /* JxlWorker.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		9342D8BB768359F2ABBE66F28ED269E2 /* thread_parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C11E1AA12BF409231083F2E2AE86B3 /* thread_parallel_runner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AD2BEEDA982E6459AFA9D5AEB61AD05 /* CJpegXLAnimatedEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 06856251E38F460E9F5D7D6910375607 /* CJpegXLAnimatedEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AF2D3A8F4B775FFF77847693069B9D1 /* XScaler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 499B1F5ABA8EA1E7468F8E67AF091785 /* XScaler.mm */; };
+		A576AD5DE1FAAE579162D93A5E6B2802 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BBCCB497506333B0F7CBFCDB73A250 /* jpeglib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A73A8A8A24E289A385B7C64392C0220B /* JxlDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3753669896805477FF0615559AF032D1 /* JxlDefinitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7F339C7179D5333EE846F76E821562F /* cms_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B802C8D253A6406883CE81FEA0465BA /* cms_interface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B217C6912D831F963D25F01E8A043A6A /* JXLSystemImage.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C92C9689B2A419A2265AFD25F532FFF6 /* JXLSystemImage.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDDBAA67CDC0654D2750F3DD188FBE2E /* color_encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9085198B7D13B672978E5B5172C46E6B /* color_encoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDEBEF2B8FC75B363EA86964854802B7 /* RgbaScaler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCAEFFF0FE4BBCE743F99EA56DD66B2 /* RgbaScaler.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BF1F0A2672E88794B7060BE117BC3DC3 /* Pods-jxlCoderTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DCE26C0AFA3A6190FAFAD4D770D5BB /* Pods-jxlCoderTest-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BFABDD13AEF6AA544FF5135CDAFBBD80 /* JxlCoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE82709810BDF1474BF9E51483AF3536 /* JxlCoder-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C10594DA22F504D6101552CA9D43C0D5 /* stats.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD13A27313A0F45F5CE120397389FED /* stats.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4FA315874814036F38BD8B17526AE1D /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AE6CF95A01E05329883FBD17790421 /* decode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C626A31A311B984EC31E439AAC430E26 /* Pods-jxlCoderTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D16387014D9C5E303B4764427D436E /* Pods-jxlCoderTest-dummy.m */; };
-		CADCC06E65026B22CFD1DD7A54E2B5CB /* decode_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 4130F47EB3E9CDB17A24DB3D07E4AA23 /* decode_cxx.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D26B311B548BB2E08C8F8E65CDDC6246 /* JxlCoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF63B1EDB5572B9535E878E7B78D6484 /* JxlCoder-dummy.m */; };
-		DDC74FBFF756E1ABA24739B14CFF09E4 /* XScaler.mm in Sources */ = {isa = PBXBuildFile; fileRef = A88B340F140BA59454ACA1C7D71096E3 /* XScaler.mm */; };
-		E0589C3549671FE4D61CE3A74456AE97 /* color_encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF926F3A4D8CD7142FFA0E95C5E6C9E /* color_encoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E5F398F076E5CF36D1EF3CDD592FE3E2 /* JXLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F31CC93A9426920888DA9C3C05BFAE /* JXLCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E9CD30DD77BA8F5AE7DEEF483DB8E192 /* RgbaScaler.h in Headers */ = {isa = PBXBuildFile; fileRef = C958E592B9C120C98638AEC622337C56 /* RgbaScaler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EC6A7BE1B2E7C9D7320BEED8F2A3A604 /* thread_parallel_runner_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F23F609B160229947C02C51CA18955B /* thread_parallel_runner_cxx.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FD58B45E055230EA96D554D522BC5DA0 /* JxlWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5485630DF0E8FFDF78B0C2DB004DA2AF /* JxlWorker.cpp */; };
+		C6943619A7E5EA85A2ED605F9B179DE8 /* jxl_threads_export.h in Headers */ = {isa = PBXBuildFile; fileRef = AB28BA87C5C0ED8618D6B819F77248BD /* jxl_threads_export.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CACBCBCC725AA873219C982A090591A7 /* JXLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA400A1374FF08125198F2EA197244D /* JXLCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC87E7C95D987F3EA3F9BE93993B0398 /* JxlAnimatedDecoder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8960AE7B3D606A7A421AC5F7DDABC60F /* JxlAnimatedDecoder.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDF067EE09AE774EE4A6BED388229D2F /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E30ED1F0B7E829CDF22671F05783DF /* encode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CEDB6FA360A64E462DC7CA0F918D46B7 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 815EBDB8FF73B62B703B5F7CC81809D8 /* jmorecfg.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D432AB131EEA6353B69AB7B199DD0EBC /* JxlAnimatedDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 345B842D0AE2C9F7608C9E3577E64EBF /* JxlAnimatedDecoder.cpp */; };
+		D9C3C34498A96B5DBE6D7BA03C3BB9C2 /* thread_parallel_runner_cxx.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5E7C5E7F032A1B62138B1821F02CBC /* thread_parallel_runner_cxx.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFEA14295BDC8DC5A86A7B9CA071A0AA /* RgbRgbaConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 12D775C7E88D3A378418739941686AF7 /* RgbRgbaConverter.mm */; };
+		E0ECF0DFB18CE845D700F509D8848227 /* CJpegXLAnimatedDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C45DB2C9A13EE614253918F1E17526A /* CJpegXLAnimatedDecoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E52304FC5B20E693A4CA55C93E250F4D /* parallel_runner.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE2C9592B49898B4F2F1C558A87C833 /* parallel_runner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E65BE3E892E57CDBDED8215301C57479 /* memory_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BBCB1C47BF48A6394B572C6236D8C4 /* memory_manager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFAD44DDCD2EDB66FFC0851D66138948 /* CJpegXLAnimatedEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8F098003DF0C044CC47632CD9EE76166 /* CJpegXLAnimatedEncoder.mm */; };
+		F3C03A38112F64667F89945895F27A9A /* half.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B3DAF2BC2E433DE886A83A6BCF51071A /* half.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFE7551649382AB3F77E6D76C9488009 /* jxl_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E4FCD2953A773EFEEB6392ECFDDAE7 /* jxl_export.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		05954C5C96F3D07F1B3D329C13A9A3AE /* PBXContainerItemProxy */ = {
+		A8886B3D39FA073465CA764F1C06AAB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -63,79 +74,90 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04CE599DB6E4FECEFC148B1D19E370B7 /* JxlCoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JxlCoder.modulemap; sourceTree = "<group>"; };
-		0AF926F3A4D8CD7142FFA0E95C5E6C9E /* color_encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = color_encoding.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/color_encoding.h"; sourceTree = "<group>"; };
-		1FB6D14A6AD34A80BA2C454F67FBC0DB /* jxl_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jxl_export.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/jxl_export.h"; sourceTree = "<group>"; };
-		28CF9C088B2329B7FBC502A556A708C6 /* stats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stats.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/stats.h"; sourceTree = "<group>"; };
-		2912EA807D626285AAAB38A1372E1C6E /* libbrotlienc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libbrotlienc.xcframework; path = Sources/Frameworks/libbrotlienc.xcframework; sourceTree = "<group>"; };
-		2932C7F9F37DA4255EE02BD9587087C9 /* JxlCoder-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JxlCoder-xcframeworks.sh"; sourceTree = "<group>"; };
+		01E4FCD2953A773EFEEB6392ECFDDAE7 /* jxl_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jxl_export.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/jxl_export.h"; sourceTree = "<group>"; };
+		039309ECFB1237F04B1239BBBB7103F1 /* JxlCoder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JxlCoder-umbrella.h"; sourceTree = "<group>"; };
+		060EB2BC9D42CDE1EE7F300FC0EC4DAA /* JxlCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JxlCoder.release.xcconfig; sourceTree = "<group>"; };
+		06856251E38F460E9F5D7D6910375607 /* CJpegXLAnimatedEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJpegXLAnimatedEncoder.h; path = Sources/jxlc/CJpegXLAnimatedEncoder.h; sourceTree = "<group>"; };
+		11FC93D57FE554C1C3B417F470402F1D /* libbrotlienc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libbrotlienc.xcframework; path = Sources/Frameworks/libbrotlienc.xcframework; sourceTree = "<group>"; };
+		12D775C7E88D3A378418739941686AF7 /* RgbRgbaConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RgbRgbaConverter.mm; path = Sources/jxlc/RgbRgbaConverter.mm; sourceTree = "<group>"; };
+		16AEABFEECAA725B9421290ADFDBFDFB /* CJpegXLAnimatedDecoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CJpegXLAnimatedDecoder.mm; path = Sources/jxlc/CJpegXLAnimatedDecoder.mm; sourceTree = "<group>"; };
+		17AE6CF95A01E05329883FBD17790421 /* decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decode.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/decode.h"; sourceTree = "<group>"; };
+		1BCAEFFF0FE4BBCE743F99EA56DD66B2 /* RgbaScaler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RgbaScaler.h; path = Sources/jxlc/RgbaScaler.h; sourceTree = "<group>"; };
+		1DD13A27313A0F45F5CE120397389FED /* stats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stats.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/stats.h"; sourceTree = "<group>"; };
+		2509189B60CBEC94B792305FD78D4C8A /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/types.h"; sourceTree = "<group>"; };
+		25ECBC6473B8078103896C0DED5EA815 /* JXLCoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXLCoder.swift; path = Sources/JxlCoder/JXLCoder.swift; sourceTree = "<group>"; };
 		29DCE26C0AFA3A6190FAFAD4D770D5BB /* Pods-jxlCoderTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jxlCoderTest-umbrella.h"; sourceTree = "<group>"; };
 		2C6C0C5FF4E722897B42098B1E5FC378 /* Pods-jxlCoderTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jxlCoderTest.modulemap"; sourceTree = "<group>"; };
-		35A4D15B19AD233C421F69BD9770DA34 /* JxlInternalCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JxlInternalCoder.h; path = Sources/jxlc/JxlInternalCoder.h; sourceTree = "<group>"; };
-		385CC75E029316BB33B6074EB39163D2 /* resizable_parallel_runner_cxx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resizable_parallel_runner_cxx.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/resizable_parallel_runner_cxx.h"; sourceTree = "<group>"; };
-		4130F47EB3E9CDB17A24DB3D07E4AA23 /* decode_cxx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decode_cxx.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/decode_cxx.h"; sourceTree = "<group>"; };
+		32A1EC9D7A581EABC55EC238920E52DE /* JXLAnimatedDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXLAnimatedDecoder.swift; path = Sources/JxlCoder/JXLAnimatedDecoder.swift; sourceTree = "<group>"; };
+		345B842D0AE2C9F7608C9E3577E64EBF /* JxlAnimatedDecoder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = JxlAnimatedDecoder.cpp; path = Sources/jxlc/JxlAnimatedDecoder.cpp; sourceTree = "<group>"; };
+		34A13E1F18B965FEB539569E641EF9CD /* libjxl_threads.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libjxl_threads.xcframework; path = Sources/Frameworks/libjxl_threads.xcframework; sourceTree = "<group>"; };
+		3753669896805477FF0615559AF032D1 /* JxlDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JxlDefinitions.h; path = Sources/jxlc/JxlDefinitions.h; sourceTree = "<group>"; };
 		4328E8CFF2C173D2ED7C0592CBBDF55A /* Pods-jxlCoderTest */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-jxlCoderTest"; path = "libPods-jxlCoderTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		441AFCFA50EBBBDABB51FC06CA4267A8 /* Pods-jxlCoderTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jxlCoderTest.debug.xcconfig"; sourceTree = "<group>"; };
 		45FC3DF3B496333799B684CCB8C672F5 /* JxlCoder */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = JxlCoder; path = libJxlCoder.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		48307EABBE33B6564D88DC5E0F38E5A6 /* JXLSystemImage.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = JXLSystemImage.mm; path = Sources/jxlc/JXLSystemImage.mm; sourceTree = "<group>"; };
-		54323DF57DC3A5075F9906AB3BC16EC1 /* decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decode.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/decode.h"; sourceTree = "<group>"; };
-		5485630DF0E8FFDF78B0C2DB004DA2AF /* JxlWorker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = JxlWorker.cpp; path = Sources/jxlc/JxlWorker.cpp; sourceTree = "<group>"; };
+		480BD1B1A2BD53A7A2F866C0774BA0D7 /* JxlWorker.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = JxlWorker.hpp; path = Sources/jxlc/JxlWorker.hpp; sourceTree = "<group>"; };
+		499B1F5ABA8EA1E7468F8E67AF091785 /* XScaler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = XScaler.mm; path = Sources/jxlc/XScaler.mm; sourceTree = "<group>"; };
+		4B802C8D253A6406883CE81FEA0465BA /* cms_interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms_interface.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/cms_interface.h"; sourceTree = "<group>"; };
+		4BE2C9592B49898B4F2F1C558A87C833 /* parallel_runner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parallel_runner.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/parallel_runner.h"; sourceTree = "<group>"; };
+		4BECF27721D80EDADAA994D69D711399 /* JxlInternalCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JxlInternalCoder.h; path = Sources/jxlc/JxlInternalCoder.h; sourceTree = "<group>"; };
+		50E30ED1F0B7E829CDF22671F05783DF /* encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encode.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/encode.h"; sourceTree = "<group>"; };
+		547A6E86B5E6A26F56F8DC7B0B4F9492 /* JxlInternalCoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = JxlInternalCoder.mm; path = Sources/jxlc/JxlInternalCoder.mm; sourceTree = "<group>"; };
 		54A8511FAB889182FEED94A69DBA6DC8 /* Pods-jxlCoderTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jxlCoderTest.release.xcconfig"; sourceTree = "<group>"; };
-		5D130D54F3E839BFF501FC2373F0A41A /* encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encode.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/encode.h"; sourceTree = "<group>"; };
-		622B2B17AA24F5AABD29A9AFF5242F7D /* codestream_header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = codestream_header.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/codestream_header.h"; sourceTree = "<group>"; };
-		6325D0B053703A0910AB4BE4462EAA8F /* JXLSystemImage.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = JXLSystemImage.hpp; path = Sources/jxlc/JXLSystemImage.hpp; sourceTree = "<group>"; };
-		63F31CC93A9426920888DA9C3C05BFAE /* JXLCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLCoder.h; path = Sources/Module/JXLCoder.h; sourceTree = "<group>"; };
+		56BBCB1C47BF48A6394B572C6236D8C4 /* memory_manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memory_manager.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/memory_manager.h"; sourceTree = "<group>"; };
+		5CDA19E59693F27376137116307A4A68 /* ScaleInterpolator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ScaleInterpolator.cpp; path = Sources/jxlc/ScaleInterpolator.cpp; sourceTree = "<group>"; };
 		68D16387014D9C5E303B4764427D436E /* Pods-jxlCoderTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jxlCoderTest-dummy.m"; sourceTree = "<group>"; };
-		6F7199F85B90966DB88D06DB6CCBCE73 /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/types.h"; sourceTree = "<group>"; };
-		6FC906D928C3FB5FF9C66F98FD8D3873 /* thread_parallel_runner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thread_parallel_runner.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/thread_parallel_runner.h"; sourceTree = "<group>"; };
-		795E043ABDD1F5B1D66F30461C7EE2C3 /* JXLCoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXLCoder.swift; path = Sources/JxlCoder/JXLCoder.swift; sourceTree = "<group>"; };
-		7AEBDFF4A00E67ED4A9AE1B8E58C7B3B /* JXLSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXLSupport.swift; path = Sources/JxlCoder/JXLSupport.swift; sourceTree = "<group>"; };
-		7F3B155DA68A37357A1002AA5B565CD0 /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jpegli/jmorecfg.h"; sourceTree = "<group>"; };
-		8EC8A7A69FCF13AD0847047377151460 /* RgbRgbaConverter.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = RgbRgbaConverter.hpp; path = Sources/jxlc/RgbRgbaConverter.hpp; sourceTree = "<group>"; };
-		8F23F609B160229947C02C51CA18955B /* thread_parallel_runner_cxx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thread_parallel_runner_cxx.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/thread_parallel_runner_cxx.h"; sourceTree = "<group>"; };
-		98823F47B155D1E679C242CC690B7C07 /* RgbaScaler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RgbaScaler.mm; path = Sources/jxlc/RgbaScaler.mm; sourceTree = "<group>"; };
+		6E95FF8CF6DFAED3D5F707F3BCAEDC5A /* JXLSystemImage.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = JXLSystemImage.mm; path = Sources/jxlc/JXLSystemImage.mm; sourceTree = "<group>"; };
+		6F6BA228E692DCE63B847400C7F6808A /* resizable_parallel_runner_cxx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resizable_parallel_runner_cxx.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/resizable_parallel_runner_cxx.h"; sourceTree = "<group>"; };
+		71CFAD47743E63D739880D7BECDAB5CA /* JxlCoder-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JxlCoder-xcframeworks.sh"; sourceTree = "<group>"; };
+		72F0BEBD8B60F9CF10C4BD094B826AAE /* XScaler.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = XScaler.hpp; path = Sources/jxlc/XScaler.hpp; sourceTree = "<group>"; };
+		815EBDB8FF73B62B703B5F7CC81809D8 /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jpegli/jmorecfg.h"; sourceTree = "<group>"; };
+		82FD192357824FB070BF207F35DFF955 /* RgbaScaler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RgbaScaler.mm; path = Sources/jxlc/RgbaScaler.mm; sourceTree = "<group>"; };
+		83255B6861D5327DF7797A06FBC281A7 /* codestream_header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = codestream_header.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/codestream_header.h"; sourceTree = "<group>"; };
+		86D94BFE58DFD4AC23C75AC9ABF4AAE7 /* ScaleInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScaleInterpolator.h; path = Sources/jxlc/ScaleInterpolator.h; sourceTree = "<group>"; };
+		88A85DCE663160704DBCBEA51F4DED46 /* encode_cxx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encode_cxx.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/encode_cxx.h"; sourceTree = "<group>"; };
+		8960AE7B3D606A7A421AC5F7DDABC60F /* JxlAnimatedDecoder.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = JxlAnimatedDecoder.hpp; path = Sources/jxlc/JxlAnimatedDecoder.hpp; sourceTree = "<group>"; };
+		8B9158C5A1F84D664D6B3E37CF144C35 /* JxlAnimatedEncoder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = JxlAnimatedEncoder.cpp; path = Sources/jxlc/JxlAnimatedEncoder.cpp; sourceTree = "<group>"; };
+		8C45DB2C9A13EE614253918F1E17526A /* CJpegXLAnimatedDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJpegXLAnimatedDecoder.h; path = Sources/jxlc/CJpegXLAnimatedDecoder.h; sourceTree = "<group>"; };
+		8C9A0620171A443E4751249C17AFDD45 /* JXLSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXLSupport.swift; path = Sources/JxlCoder/JXLSupport.swift; sourceTree = "<group>"; };
+		8F098003DF0C044CC47632CD9EE76166 /* CJpegXLAnimatedEncoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = CJpegXLAnimatedEncoder.mm; path = Sources/jxlc/CJpegXLAnimatedEncoder.mm; sourceTree = "<group>"; };
+		9085198B7D13B672978E5B5172C46E6B /* color_encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = color_encoding.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/color_encoding.h"; sourceTree = "<group>"; };
+		97CAC46957E2D8644FC3D6C57F53A39B /* JxlAnimatedEncoder.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = JxlAnimatedEncoder.hpp; path = Sources/jxlc/JxlAnimatedEncoder.hpp; sourceTree = "<group>"; };
 		98A43967DEDD11D87403CB27F27594CA /* Pods-jxlCoderTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jxlCoderTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA28429852A535D202D1CAEF8F65674 /* JxlWorker.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = JxlWorker.hpp; path = Sources/jxlc/JxlWorker.hpp; sourceTree = "<group>"; };
-		9DDD9F7F3D9EC6FEAE76FD2446F4AD3C /* JxlCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JxlCoder.release.xcconfig; sourceTree = "<group>"; };
-		A0DFA12E61BF6F40EDC512646DEB5170 /* JxlCoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JxlCoder-prefix.pch"; sourceTree = "<group>"; };
-		A7682DCC01B51FD31A62667882369662 /* libjxl_threads.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libjxl_threads.xcframework; path = Sources/Frameworks/libjxl_threads.xcframework; sourceTree = "<group>"; };
-		A84BE23C3943E7A2FB4157A1C2A21EC3 /* libhwy.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libhwy.xcframework; path = Sources/Frameworks/libhwy.xcframework; sourceTree = "<group>"; };
-		A88B340F140BA59454ACA1C7D71096E3 /* XScaler.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = XScaler.mm; path = Sources/jxlc/XScaler.mm; sourceTree = "<group>"; };
-		A8BCEB83148627E466542F5566DFEBED /* libbrotlidec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libbrotlidec.xcframework; path = Sources/Frameworks/libbrotlidec.xcframework; sourceTree = "<group>"; };
-		AAA5C60842FE29DDC0A846EFA3BBA753 /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jpegli/jconfig.h"; sourceTree = "<group>"; };
-		ADAB9ABA193CA605362CEAF400128D4A /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jpegli/jpeglib.h"; sourceTree = "<group>"; };
-		AF63B1EDB5572B9535E878E7B78D6484 /* JxlCoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JxlCoder-dummy.m"; sourceTree = "<group>"; };
-		B01923C2BCC17841431AF98D235FB1EB /* parallel_runner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parallel_runner.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/parallel_runner.h"; sourceTree = "<group>"; };
-		B681E8A94D83A3564A794A8729AD44EA /* ScaleInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScaleInterpolator.h; path = Sources/jxlc/ScaleInterpolator.h; sourceTree = "<group>"; };
-		B92FF106EF5517589F4FFEDFEC254F1B /* jxl_threads_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jxl_threads_export.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/jxl_threads_export.h"; sourceTree = "<group>"; };
-		BEC7C8FDD36DEDB097A9FF79D8758FC7 /* XScaler.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = XScaler.hpp; path = Sources/jxlc/XScaler.hpp; sourceTree = "<group>"; };
-		C2BD7397ADA237A97C9B4FB2ABCD0AE8 /* memory_manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memory_manager.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/memory_manager.h"; sourceTree = "<group>"; };
-		C6F066267ABF97E24BD173ED400BBAEC /* JxlInternalCoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = JxlInternalCoder.mm; path = Sources/jxlc/JxlInternalCoder.mm; sourceTree = "<group>"; };
-		C958E592B9C120C98638AEC622337C56 /* RgbaScaler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RgbaScaler.h; path = Sources/jxlc/RgbaScaler.h; sourceTree = "<group>"; };
-		CE71509CE9B6B4D1CDAE649C97EF0E9A /* libbrotlicommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libbrotlicommon.xcframework; path = Sources/Frameworks/libbrotlicommon.xcframework; sourceTree = "<group>"; };
-		D8E57458BE0165C7EAC396D545659D5C /* RgbRgbaConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RgbRgbaConverter.mm; path = Sources/jxlc/RgbRgbaConverter.mm; sourceTree = "<group>"; };
-		DB411167B823E2C018799ED8FF42E9C0 /* JxlCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JxlCoder.debug.xcconfig; sourceTree = "<group>"; };
-		DCBDDB5A96A8C97EC9D6AC70CC1C16A2 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/version.h"; sourceTree = "<group>"; };
+		9EB2FA4631F58E22D89DAC4CD12AAE16 /* libbrotlicommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libbrotlicommon.xcframework; path = Sources/Frameworks/libbrotlicommon.xcframework; sourceTree = "<group>"; };
+		9F33E7E9D0D00F5EE498D311D0F0F8D1 /* libbrotlidec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libbrotlidec.xcframework; path = Sources/Frameworks/libbrotlidec.xcframework; sourceTree = "<group>"; };
+		A0DD321AE32855D8B9DD955DFA7918F6 /* libhwy.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libhwy.xcframework; path = Sources/Frameworks/libhwy.xcframework; sourceTree = "<group>"; };
+		A5CF65DEFB79D7227B134B68F21AB472 /* JxlCoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JxlCoder-dummy.m"; sourceTree = "<group>"; };
+		A6C11E1AA12BF409231083F2E2AE86B3 /* thread_parallel_runner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thread_parallel_runner.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/thread_parallel_runner.h"; sourceTree = "<group>"; };
+		AA5E7C5E7F032A1B62138B1821F02CBC /* thread_parallel_runner_cxx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thread_parallel_runner_cxx.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/thread_parallel_runner_cxx.h"; sourceTree = "<group>"; };
+		AB28BA87C5C0ED8618D6B819F77248BD /* jxl_threads_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jxl_threads_export.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/jxl_threads_export.h"; sourceTree = "<group>"; };
+		AEA400A1374FF08125198F2EA197244D /* JXLCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLCoder.h; path = Sources/Module/JXLCoder.h; sourceTree = "<group>"; };
+		B3DAF2BC2E433DE886A83A6BCF51071A /* half.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = half.hpp; path = Sources/jxlc/half.hpp; sourceTree = "<group>"; };
+		B612BE6D6184703AFBA0ACEE8FD93CD9 /* decode_cxx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decode_cxx.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/decode_cxx.h"; sourceTree = "<group>"; };
+		B901BFAA1160CFDA6DBCC283CE3B3C60 /* libjxl.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libjxl.xcframework; path = Sources/Frameworks/libjxl.xcframework; sourceTree = "<group>"; };
+		BA995DB9DA2DBDEFB7D02423A321C79E /* JxlCoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JxlCoder-prefix.pch"; sourceTree = "<group>"; };
+		C2430A1FB06AC71B3C4D87A818962384 /* resizable_parallel_runner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resizable_parallel_runner.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/resizable_parallel_runner.h"; sourceTree = "<group>"; };
+		C35DCD8881AD457779167964837DC8EA /* RgbRgbaConverter.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = RgbRgbaConverter.hpp; path = Sources/jxlc/RgbRgbaConverter.hpp; sourceTree = "<group>"; };
+		C91662F9B3B1505538FAB22AAA9D8D89 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/version.h"; sourceTree = "<group>"; };
+		C92C9689B2A419A2265AFD25F532FFF6 /* JXLSystemImage.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = JXLSystemImage.hpp; path = Sources/jxlc/JXLSystemImage.hpp; sourceTree = "<group>"; };
+		C94FC0B67E3A2139D69D6413B069BF7F /* JxlCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JxlCoder.debug.xcconfig; sourceTree = "<group>"; };
+		D11BED044BBEE5AFF1D74877B9CF3879 /* JXLAnimatedEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXLAnimatedEncoder.swift; path = Sources/JxlCoder/JXLAnimatedEncoder.swift; sourceTree = "<group>"; };
 		E212687E89DB160636C26B6BAF8D6058 /* Pods-jxlCoderTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jxlCoderTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E32058C06AC2CE072E106292A36AF4F3 /* cms_interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms_interface.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/cms_interface.h"; sourceTree = "<group>"; };
-		EA2B1A0F07DD0E12ABD52BAB27AF2AF4 /* resizable_parallel_runner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resizable_parallel_runner.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/resizable_parallel_runner.h"; sourceTree = "<group>"; };
-		EC1D58B055BC1601703B218DC018DF0F /* ScaleInterpolator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ScaleInterpolator.cpp; path = Sources/jxlc/ScaleInterpolator.cpp; sourceTree = "<group>"; };
-		EE82709810BDF1474BF9E51483AF3536 /* JxlCoder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JxlCoder-umbrella.h"; sourceTree = "<group>"; };
-		EEC4DDD319066CF97265668966E4BC9A /* encode_cxx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encode_cxx.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jxl/encode_cxx.h"; sourceTree = "<group>"; };
-		F48818EF6D1F010ED14B01DBEE7616BC /* libjxl.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libjxl.xcframework; path = Sources/Frameworks/libjxl.xcframework; sourceTree = "<group>"; };
-		FD366EBA31A67A1F0117914FA09E95A6 /* half.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = half.hpp; path = Sources/jxlc/half.hpp; sourceTree = "<group>"; };
+		E3BBCCB497506333B0F7CBFCDB73A250 /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jpegli/jpeglib.h"; sourceTree = "<group>"; };
+		EA9BBCCF15A5397A8BCDB80C909F36B2 /* JxlCoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JxlCoder.modulemap; sourceTree = "<group>"; };
+		F18F6934788F8D037F60230BD9B6E9E0 /* JxlWorker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = JxlWorker.cpp; path = Sources/jxlc/JxlWorker.cpp; sourceTree = "<group>"; };
+		FBE6283A9DBE350DFD24BEE64949641E /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = "Sources/Frameworks/libjxl.xcframework/ios-arm64/Headers/jpegli/jconfig.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		222E1425B4B0972375FE2FD0E272907F /* Frameworks */ = {
+		976AE3578E24BF77281D2CEB7C0A8491 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		976AE3578E24BF77281D2CEB7C0A8491 /* Frameworks */ = {
+		F38C9CB138BB220A6D438C3D46CBEEAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -145,81 +167,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		161D2868D64B34CD8FE99093BF8FCB15 /* Frameworks */ = {
+		39F0CE6FE5DFA1581D1AF765353165A5 /* JxlCoder */ = {
 			isa = PBXGroup;
 			children = (
-				CE71509CE9B6B4D1CDAE649C97EF0E9A /* libbrotlicommon.xcframework */,
-				A8BCEB83148627E466542F5566DFEBED /* libbrotlidec.xcframework */,
-				2912EA807D626285AAAB38A1372E1C6E /* libbrotlienc.xcframework */,
-				A84BE23C3943E7A2FB4157A1C2A21EC3 /* libhwy.xcframework */,
-				F48818EF6D1F010ED14B01DBEE7616BC /* libjxl.xcframework */,
-				A7682DCC01B51FD31A62667882369662 /* libjxl_threads.xcframework */,
+				8C45DB2C9A13EE614253918F1E17526A /* CJpegXLAnimatedDecoder.h */,
+				16AEABFEECAA725B9421290ADFDBFDFB /* CJpegXLAnimatedDecoder.mm */,
+				06856251E38F460E9F5D7D6910375607 /* CJpegXLAnimatedEncoder.h */,
+				8F098003DF0C044CC47632CD9EE76166 /* CJpegXLAnimatedEncoder.mm */,
+				4B802C8D253A6406883CE81FEA0465BA /* cms_interface.h */,
+				83255B6861D5327DF7797A06FBC281A7 /* codestream_header.h */,
+				9085198B7D13B672978E5B5172C46E6B /* color_encoding.h */,
+				17AE6CF95A01E05329883FBD17790421 /* decode.h */,
+				B612BE6D6184703AFBA0ACEE8FD93CD9 /* decode_cxx.h */,
+				50E30ED1F0B7E829CDF22671F05783DF /* encode.h */,
+				88A85DCE663160704DBCBEA51F4DED46 /* encode_cxx.h */,
+				B3DAF2BC2E433DE886A83A6BCF51071A /* half.hpp */,
+				FBE6283A9DBE350DFD24BEE64949641E /* jconfig.h */,
+				815EBDB8FF73B62B703B5F7CC81809D8 /* jmorecfg.h */,
+				E3BBCCB497506333B0F7CBFCDB73A250 /* jpeglib.h */,
+				01E4FCD2953A773EFEEB6392ECFDDAE7 /* jxl_export.h */,
+				AB28BA87C5C0ED8618D6B819F77248BD /* jxl_threads_export.h */,
+				345B842D0AE2C9F7608C9E3577E64EBF /* JxlAnimatedDecoder.cpp */,
+				8960AE7B3D606A7A421AC5F7DDABC60F /* JxlAnimatedDecoder.hpp */,
+				32A1EC9D7A581EABC55EC238920E52DE /* JXLAnimatedDecoder.swift */,
+				8B9158C5A1F84D664D6B3E37CF144C35 /* JxlAnimatedEncoder.cpp */,
+				97CAC46957E2D8644FC3D6C57F53A39B /* JxlAnimatedEncoder.hpp */,
+				D11BED044BBEE5AFF1D74877B9CF3879 /* JXLAnimatedEncoder.swift */,
+				AEA400A1374FF08125198F2EA197244D /* JXLCoder.h */,
+				25ECBC6473B8078103896C0DED5EA815 /* JXLCoder.swift */,
+				3753669896805477FF0615559AF032D1 /* JxlDefinitions.h */,
+				4BECF27721D80EDADAA994D69D711399 /* JxlInternalCoder.h */,
+				547A6E86B5E6A26F56F8DC7B0B4F9492 /* JxlInternalCoder.mm */,
+				8C9A0620171A443E4751249C17AFDD45 /* JXLSupport.swift */,
+				C92C9689B2A419A2265AFD25F532FFF6 /* JXLSystemImage.hpp */,
+				6E95FF8CF6DFAED3D5F707F3BCAEDC5A /* JXLSystemImage.mm */,
+				F18F6934788F8D037F60230BD9B6E9E0 /* JxlWorker.cpp */,
+				480BD1B1A2BD53A7A2F866C0774BA0D7 /* JxlWorker.hpp */,
+				56BBCB1C47BF48A6394B572C6236D8C4 /* memory_manager.h */,
+				4BE2C9592B49898B4F2F1C558A87C833 /* parallel_runner.h */,
+				C2430A1FB06AC71B3C4D87A818962384 /* resizable_parallel_runner.h */,
+				6F6BA228E692DCE63B847400C7F6808A /* resizable_parallel_runner_cxx.h */,
+				1BCAEFFF0FE4BBCE743F99EA56DD66B2 /* RgbaScaler.h */,
+				82FD192357824FB070BF207F35DFF955 /* RgbaScaler.mm */,
+				C35DCD8881AD457779167964837DC8EA /* RgbRgbaConverter.hpp */,
+				12D775C7E88D3A378418739941686AF7 /* RgbRgbaConverter.mm */,
+				5CDA19E59693F27376137116307A4A68 /* ScaleInterpolator.cpp */,
+				86D94BFE58DFD4AC23C75AC9ABF4AAE7 /* ScaleInterpolator.h */,
+				1DD13A27313A0F45F5CE120397389FED /* stats.h */,
+				A6C11E1AA12BF409231083F2E2AE86B3 /* thread_parallel_runner.h */,
+				AA5E7C5E7F032A1B62138B1821F02CBC /* thread_parallel_runner_cxx.h */,
+				2509189B60CBEC94B792305FD78D4C8A /* types.h */,
+				C91662F9B3B1505538FAB22AAA9D8D89 /* version.h */,
+				72F0BEBD8B60F9CF10C4BD094B826AAE /* XScaler.hpp */,
+				499B1F5ABA8EA1E7468F8E67AF091785 /* XScaler.mm */,
+				869938C0B8D28CA9445CB8B95DB44F92 /* Frameworks */,
+				5E511C8495E9CCEFE9DCD502F0E636D8 /* Support Files */,
 			);
-			name = Frameworks;
+			name = JxlCoder;
+			path = JxlCoder;
 			sourceTree = "<group>";
 		};
-		1FCC7076941E6AFE93C870EFADAB9183 /* Support Files */ = {
+		5E511C8495E9CCEFE9DCD502F0E636D8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				04CE599DB6E4FECEFC148B1D19E370B7 /* JxlCoder.modulemap */,
-				AF63B1EDB5572B9535E878E7B78D6484 /* JxlCoder-dummy.m */,
-				A0DFA12E61BF6F40EDC512646DEB5170 /* JxlCoder-prefix.pch */,
-				EE82709810BDF1474BF9E51483AF3536 /* JxlCoder-umbrella.h */,
-				2932C7F9F37DA4255EE02BD9587087C9 /* JxlCoder-xcframeworks.sh */,
-				DB411167B823E2C018799ED8FF42E9C0 /* JxlCoder.debug.xcconfig */,
-				9DDD9F7F3D9EC6FEAE76FD2446F4AD3C /* JxlCoder.release.xcconfig */,
+				EA9BBCCF15A5397A8BCDB80C909F36B2 /* JxlCoder.modulemap */,
+				A5CF65DEFB79D7227B134B68F21AB472 /* JxlCoder-dummy.m */,
+				BA995DB9DA2DBDEFB7D02423A321C79E /* JxlCoder-prefix.pch */,
+				039309ECFB1237F04B1239BBBB7103F1 /* JxlCoder-umbrella.h */,
+				71CFAD47743E63D739880D7BECDAB5CA /* JxlCoder-xcframeworks.sh */,
+				C94FC0B67E3A2139D69D6413B069BF7F /* JxlCoder.debug.xcconfig */,
+				060EB2BC9D42CDE1EE7F300FC0EC4DAA /* JxlCoder.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JxlCoder";
 			sourceTree = "<group>";
 		};
-		8F32DD59E5DC0CB3C1255B587A3A017C /* JxlCoder */ = {
+		7B27961D316213C0A4749CE883F701C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E32058C06AC2CE072E106292A36AF4F3 /* cms_interface.h */,
-				622B2B17AA24F5AABD29A9AFF5242F7D /* codestream_header.h */,
-				0AF926F3A4D8CD7142FFA0E95C5E6C9E /* color_encoding.h */,
-				54323DF57DC3A5075F9906AB3BC16EC1 /* decode.h */,
-				4130F47EB3E9CDB17A24DB3D07E4AA23 /* decode_cxx.h */,
-				5D130D54F3E839BFF501FC2373F0A41A /* encode.h */,
-				EEC4DDD319066CF97265668966E4BC9A /* encode_cxx.h */,
-				FD366EBA31A67A1F0117914FA09E95A6 /* half.hpp */,
-				AAA5C60842FE29DDC0A846EFA3BBA753 /* jconfig.h */,
-				7F3B155DA68A37357A1002AA5B565CD0 /* jmorecfg.h */,
-				ADAB9ABA193CA605362CEAF400128D4A /* jpeglib.h */,
-				1FB6D14A6AD34A80BA2C454F67FBC0DB /* jxl_export.h */,
-				B92FF106EF5517589F4FFEDFEC254F1B /* jxl_threads_export.h */,
-				63F31CC93A9426920888DA9C3C05BFAE /* JXLCoder.h */,
-				795E043ABDD1F5B1D66F30461C7EE2C3 /* JXLCoder.swift */,
-				35A4D15B19AD233C421F69BD9770DA34 /* JxlInternalCoder.h */,
-				C6F066267ABF97E24BD173ED400BBAEC /* JxlInternalCoder.mm */,
-				7AEBDFF4A00E67ED4A9AE1B8E58C7B3B /* JXLSupport.swift */,
-				6325D0B053703A0910AB4BE4462EAA8F /* JXLSystemImage.hpp */,
-				48307EABBE33B6564D88DC5E0F38E5A6 /* JXLSystemImage.mm */,
-				5485630DF0E8FFDF78B0C2DB004DA2AF /* JxlWorker.cpp */,
-				9DA28429852A535D202D1CAEF8F65674 /* JxlWorker.hpp */,
-				C2BD7397ADA237A97C9B4FB2ABCD0AE8 /* memory_manager.h */,
-				B01923C2BCC17841431AF98D235FB1EB /* parallel_runner.h */,
-				EA2B1A0F07DD0E12ABD52BAB27AF2AF4 /* resizable_parallel_runner.h */,
-				385CC75E029316BB33B6074EB39163D2 /* resizable_parallel_runner_cxx.h */,
-				C958E592B9C120C98638AEC622337C56 /* RgbaScaler.h */,
-				98823F47B155D1E679C242CC690B7C07 /* RgbaScaler.mm */,
-				8EC8A7A69FCF13AD0847047377151460 /* RgbRgbaConverter.hpp */,
-				D8E57458BE0165C7EAC396D545659D5C /* RgbRgbaConverter.mm */,
-				EC1D58B055BC1601703B218DC018DF0F /* ScaleInterpolator.cpp */,
-				B681E8A94D83A3564A794A8729AD44EA /* ScaleInterpolator.h */,
-				28CF9C088B2329B7FBC502A556A708C6 /* stats.h */,
-				6FC906D928C3FB5FF9C66F98FD8D3873 /* thread_parallel_runner.h */,
-				8F23F609B160229947C02C51CA18955B /* thread_parallel_runner_cxx.h */,
-				6F7199F85B90966DB88D06DB6CCBCE73 /* types.h */,
-				DCBDDB5A96A8C97EC9D6AC70CC1C16A2 /* version.h */,
-				BEC7C8FDD36DEDB097A9FF79D8758FC7 /* XScaler.hpp */,
-				A88B340F140BA59454ACA1C7D71096E3 /* XScaler.mm */,
-				161D2868D64B34CD8FE99093BF8FCB15 /* Frameworks */,
-				1FCC7076941E6AFE93C870EFADAB9183 /* Support Files */,
+				39F0CE6FE5DFA1581D1AF765353165A5 /* JxlCoder */,
 			);
-			name = JxlCoder;
-			path = JxlCoder;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		869938C0B8D28CA9445CB8B95DB44F92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EB2FA4631F58E22D89DAC4CD12AAE16 /* libbrotlicommon.xcframework */,
+				9F33E7E9D0D00F5EE498D311D0F0F8D1 /* libbrotlidec.xcframework */,
+				11FC93D57FE554C1C3B417F470402F1D /* libbrotlienc.xcframework */,
+				A0DD321AE32855D8B9DD955DFA7918F6 /* libhwy.xcframework */,
+				B901BFAA1160CFDA6DBCC283CE3B3C60 /* libjxl.xcframework */,
+				34A13E1F18B965FEB539569E641EF9CD /* libjxl_threads.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		99F78642522BDF5351140944385DA445 /* Targets Support Files */ = {
@@ -259,18 +300,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				D402C0B933AF730ACC21632DE835CF56 /* Pods */,
+				7B27961D316213C0A4749CE883F701C3 /* Pods */,
 				BD18842DA09872934BB4FA69771D4D69 /* Products */,
 				99F78642522BDF5351140944385DA445 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D402C0B933AF730ACC21632DE835CF56 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8F32DD59E5DC0CB3C1255B587A3A017C /* JxlCoder */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -291,41 +324,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D643D525A4866C0E64F72CE8C77A5048 /* Headers */ = {
+		E6123E083C29A642FDFDA01AEFC48CBC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C152970CEEA38336A88321D197987F4 /* cms_interface.h in Headers */,
-				0515D0032703B26EC8086F049AC3744B /* codestream_header.h in Headers */,
-				E0589C3549671FE4D61CE3A74456AE97 /* color_encoding.h in Headers */,
-				A8FC6F48C033489E742AB8B4ECC0D0C1 /* decode.h in Headers */,
-				CADCC06E65026B22CFD1DD7A54E2B5CB /* decode_cxx.h in Headers */,
-				B2543144FCB2179BC2A90BA78F67B189 /* encode.h in Headers */,
-				05A475AB0FE12C7CC6AF9D98B91B7710 /* encode_cxx.h in Headers */,
-				8199AE674571D8DDAD8FF622368D102E /* half.hpp in Headers */,
-				A318BE08799AEF1C5F626222919DC409 /* jconfig.h in Headers */,
-				79077359EE0AEB123BCAA46B52B1B8AD /* jmorecfg.h in Headers */,
-				31220C5ECC3BF26AFE6A5A5A9098A743 /* jpeglib.h in Headers */,
-				01C0CF19CC6ECB94AA2888DBAF329672 /* jxl_export.h in Headers */,
-				57571AA4518EF2F34AE578002E22CB41 /* jxl_threads_export.h in Headers */,
-				E5F398F076E5CF36D1EF3CDD592FE3E2 /* JXLCoder.h in Headers */,
-				BFABDD13AEF6AA544FF5135CDAFBBD80 /* JxlCoder-umbrella.h in Headers */,
-				11DC8BCAEB0765470AD61C68DE9F7F4E /* JxlInternalCoder.h in Headers */,
-				364D4F831F05285EE82D687F71947B3E /* JXLSystemImage.hpp in Headers */,
-				2ABFB54765CAE6410A330940E5483077 /* JxlWorker.hpp in Headers */,
-				12BEBFA67E72F9359EF2BE1E12FC70B6 /* memory_manager.h in Headers */,
-				450E0559A4A1EEB80EB689B2419008C5 /* parallel_runner.h in Headers */,
-				677FA30B4DAFD6A1B046CBA02EF798F1 /* resizable_parallel_runner.h in Headers */,
-				A342ACBFC0844BACDB69716892B4C7C0 /* resizable_parallel_runner_cxx.h in Headers */,
-				E9CD30DD77BA8F5AE7DEEF483DB8E192 /* RgbaScaler.h in Headers */,
-				33E0BB66DAED0EA2D79847C16C5DA3C8 /* RgbRgbaConverter.hpp in Headers */,
-				4B4FA9065EF5F090E382627BA818E726 /* ScaleInterpolator.h in Headers */,
-				8C7597A09ABBA072C9EEA24C50737EF2 /* stats.h in Headers */,
-				2FF9F2E0BC0CE71B74A8F4C811F78379 /* thread_parallel_runner.h in Headers */,
-				EC6A7BE1B2E7C9D7320BEED8F2A3A604 /* thread_parallel_runner_cxx.h in Headers */,
-				AA41DDCA60CAD21421492601B12074A1 /* types.h in Headers */,
-				AE64A4ADAC65C5CB560412A2959BEF84 /* version.h in Headers */,
-				A8C206194AD3D934D3E617DFC36545F9 /* XScaler.hpp in Headers */,
+				E0ECF0DFB18CE845D700F509D8848227 /* CJpegXLAnimatedDecoder.h in Headers */,
+				9AD2BEEDA982E6459AFA9D5AEB61AD05 /* CJpegXLAnimatedEncoder.h in Headers */,
+				A7F339C7179D5333EE846F76E821562F /* cms_interface.h in Headers */,
+				8CD4C53AAC730E86B0B8483B1AD1373B /* codestream_header.h in Headers */,
+				BDDBAA67CDC0654D2750F3DD188FBE2E /* color_encoding.h in Headers */,
+				C4FA315874814036F38BD8B17526AE1D /* decode.h in Headers */,
+				86974660851A38C7CECC5445E0C52332 /* decode_cxx.h in Headers */,
+				CDF067EE09AE774EE4A6BED388229D2F /* encode.h in Headers */,
+				487544E92E152CEC565AD5E883E00B82 /* encode_cxx.h in Headers */,
+				F3C03A38112F64667F89945895F27A9A /* half.hpp in Headers */,
+				159CC4668EFBC925BCD6AC0C103B4CDB /* jconfig.h in Headers */,
+				CEDB6FA360A64E462DC7CA0F918D46B7 /* jmorecfg.h in Headers */,
+				A576AD5DE1FAAE579162D93A5E6B2802 /* jpeglib.h in Headers */,
+				FFE7551649382AB3F77E6D76C9488009 /* jxl_export.h in Headers */,
+				C6943619A7E5EA85A2ED605F9B179DE8 /* jxl_threads_export.h in Headers */,
+				CC87E7C95D987F3EA3F9BE93993B0398 /* JxlAnimatedDecoder.hpp in Headers */,
+				3EED18D3AF8D121237FD85A8A9D6541F /* JxlAnimatedEncoder.hpp in Headers */,
+				CACBCBCC725AA873219C982A090591A7 /* JXLCoder.h in Headers */,
+				3B2FE9C92DBDB126897EAC6C177ED972 /* JxlCoder-umbrella.h in Headers */,
+				A73A8A8A24E289A385B7C64392C0220B /* JxlDefinitions.h in Headers */,
+				794226EE569025D7D120D0A7BD943AC7 /* JxlInternalCoder.h in Headers */,
+				B217C6912D831F963D25F01E8A043A6A /* JXLSystemImage.hpp in Headers */,
+				914C9F216344407D51D4380F7DCCE498 /* JxlWorker.hpp in Headers */,
+				E65BE3E892E57CDBDED8215301C57479 /* memory_manager.h in Headers */,
+				E52304FC5B20E693A4CA55C93E250F4D /* parallel_runner.h in Headers */,
+				60B19725D3C719EABD9F9668659B70A2 /* resizable_parallel_runner.h in Headers */,
+				44745FB0122BC0723AEC3CF229A1AFF8 /* resizable_parallel_runner_cxx.h in Headers */,
+				BDEBEF2B8FC75B363EA86964854802B7 /* RgbaScaler.h in Headers */,
+				77902D9AB98A1E3EE9CB266F209A556A /* RgbRgbaConverter.hpp in Headers */,
+				87355681EA8775790A9346E36863948A /* ScaleInterpolator.h in Headers */,
+				C10594DA22F504D6101552CA9D43C0D5 /* stats.h in Headers */,
+				9342D8BB768359F2ABBE66F28ED269E2 /* thread_parallel_runner.h in Headers */,
+				D9C3C34498A96B5DBE6D7BA03C3BB9C2 /* thread_parallel_runner_cxx.h in Headers */,
+				6F4DED718BA37EF029999BA8591D455F /* types.h in Headers */,
+				0149407F4B4D043AE655E17379852A67 /* version.h in Headers */,
+				3E797DA22D5D8193FE36CDDD9D9C880E /* XScaler.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,13 +372,13 @@
 /* Begin PBXNativeTarget section */
 		A48AFE6E9C09190EEA542362D9D19BCA /* JxlCoder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 006410D87AF64E3EC89EA55FA2A15714 /* Build configuration list for PBXNativeTarget "JxlCoder" */;
+			buildConfigurationList = AB9BEFB1A70A026EA80752BF7C795989 /* Build configuration list for PBXNativeTarget "JxlCoder" */;
 			buildPhases = (
-				D643D525A4866C0E64F72CE8C77A5048 /* Headers */,
-				D7929BB236618778F503101CFC3EB462 /* [CP] Copy XCFrameworks */,
-				5FEF05B4D0C59389F0FADE9F28376F3C /* Sources */,
-				222E1425B4B0972375FE2FD0E272907F /* Frameworks */,
-				69818EB3126ABF3136FA0ECC2826F130 /* Copy generated compatibility header */,
+				E6123E083C29A642FDFDA01AEFC48CBC /* Headers */,
+				CAA877AA639B4F8BA5997247054908A1 /* [CP] Copy XCFrameworks */,
+				28D2AB0204B429029F3F9F34EFA381C7 /* Sources */,
+				F38C9CB138BB220A6D438C3D46CBEEAE /* Frameworks */,
+				BF6FF3D34EAB2BD38C4E815D30170DA0 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -362,7 +400,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6C5D3FA60C1CCFE3F703C1F86F6B9D96 /* PBXTargetDependency */,
+				1B976456ED6132741342D81AD7503F71 /* PBXTargetDependency */,
 			);
 			name = "Pods-jxlCoderTest";
 			productName = "Pods-jxlCoderTest";
@@ -398,7 +436,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		69818EB3126ABF3136FA0ECC2826F130 /* Copy generated compatibility header */ = {
+		BF6FF3D34EAB2BD38C4E815D30170DA0 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -422,7 +460,7 @@
 			shellPath = /bin/sh;
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/JxlCoder/JxlCoder.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/JxlCoder/JxlCoder-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
-		D7929BB236618778F503101CFC3EB462 /* [CP] Copy XCFrameworks */ = {
+		CAA877AA639B4F8BA5997247054908A1 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,20 +480,26 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5FEF05B4D0C59389F0FADE9F28376F3C /* Sources */ = {
+		28D2AB0204B429029F3F9F34EFA381C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B23763907DADFA09EA44418A3D4B20 /* JXLCoder.swift in Sources */,
-				D26B311B548BB2E08C8F8E65CDDC6246 /* JxlCoder-dummy.m in Sources */,
-				48C9A6A47CBF311D82F3AF670873DDA9 /* JxlInternalCoder.mm in Sources */,
-				35EFB1C84B851775B70A9F3277EB2C3A /* JXLSupport.swift in Sources */,
-				785AB807A716BF7D4645E0BBB79A709C /* JXLSystemImage.mm in Sources */,
-				FD58B45E055230EA96D554D522BC5DA0 /* JxlWorker.cpp in Sources */,
-				ADE0BF16C0797D55DD6DBD8E18EA9671 /* RgbaScaler.mm in Sources */,
-				6203BA80650E423D18A2B673B95C8D77 /* RgbRgbaConverter.mm in Sources */,
-				45E921785D4FD106331D9A7EFFEB7F96 /* ScaleInterpolator.cpp in Sources */,
-				DDC74FBFF756E1ABA24739B14CFF09E4 /* XScaler.mm in Sources */,
+				23BBE9D33E18E3923B82D214DD1FF7AE /* CJpegXLAnimatedDecoder.mm in Sources */,
+				EFAD44DDCD2EDB66FFC0851D66138948 /* CJpegXLAnimatedEncoder.mm in Sources */,
+				D432AB131EEA6353B69AB7B199DD0EBC /* JxlAnimatedDecoder.cpp in Sources */,
+				36D04D889541792CC4742216758354B3 /* JXLAnimatedDecoder.swift in Sources */,
+				39FFF2F2F43A47021E2BFC8EA4416D80 /* JxlAnimatedEncoder.cpp in Sources */,
+				3ED9705223ABBBE021FE7DDA58CD824D /* JXLAnimatedEncoder.swift in Sources */,
+				3125B366BDF9199ABC9EA5D4E7CEA0D7 /* JXLCoder.swift in Sources */,
+				708F3FA5C3DD9B4F2637B3EEF3722952 /* JxlCoder-dummy.m in Sources */,
+				64E209850DF46CAD4777F22CB5BE2E97 /* JxlInternalCoder.mm in Sources */,
+				3C0925B85678997227F37EEA323892D7 /* JXLSupport.swift in Sources */,
+				4F4E8515351B3C54E1009770E2858D20 /* JXLSystemImage.mm in Sources */,
+				726C97AF7886E4F82818C0AACD5725AD /* JxlWorker.cpp in Sources */,
+				8CC168815FE6E5F52FE54A278D1A44C3 /* RgbaScaler.mm in Sources */,
+				DFEA14295BDC8DC5A86A7B9CA071A0AA /* RgbRgbaConverter.mm in Sources */,
+				05479DD34DBF8D29652BA04B7EDEF9CA /* ScaleInterpolator.cpp in Sources */,
+				9AF2D3A8F4B775FFF77847693069B9D1 /* XScaler.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,11 +514,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C5D3FA60C1CCFE3F703C1F86F6B9D96 /* PBXTargetDependency */ = {
+		1B976456ED6132741342D81AD7503F71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JxlCoder;
 			target = A48AFE6E9C09190EEA542362D9D19BCA /* JxlCoder */;
-			targetProxy = 05954C5C96F3D07F1B3D329C13A9A3AE /* PBXContainerItemProxy */;
+			targetProxy = A8886B3D39FA073465CA764F1C06AAB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -545,9 +589,9 @@
 			};
 			name = Debug;
 		};
-		274F101C665E6F59BD69C54C86F12DB3 /* Release */ = {
+		72E78469836CD13D7407771D4930B648 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DDD9F7F3D9EC6FEAE76FD2446F4AD3C /* JxlCoder.release.xcconfig */;
+			baseConfigurationReference = 060EB2BC9D42CDE1EE7F300FC0EC4DAA /* JxlCoder.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -614,6 +658,31 @@
 			};
 			name = Debug;
 		};
+		CD19B268570B9C93E77218C093FF302E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94FC0B67E3A2139D69D6413B069BF7F /* JxlCoder.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/JxlCoder/JxlCoder-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/JxlCoder/JxlCoder.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JxlCoder;
+				PRODUCT_NAME = JxlCoder;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+			};
+			name = Debug;
+		};
 		D3EB2FD6F1433395AD7963F2871FCF97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -676,43 +745,9 @@
 			};
 			name = Release;
 		};
-		D8F9916A1A08F90D8D88A897E1A538D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB411167B823E2C018799ED8FF42E9C0 /* JxlCoder.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/JxlCoder/JxlCoder-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = Headers/Public/JxlCoder/JxlCoder.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = JxlCoder;
-				PRODUCT_NAME = JxlCoder;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.5;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		006410D87AF64E3EC89EA55FA2A15714 /* Build configuration list for PBXNativeTarget "JxlCoder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8F9916A1A08F90D8D88A897E1A538D3 /* Debug */,
-				274F101C665E6F59BD69C54C86F12DB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2647501D9990B9D368370E9A96380F1A /* Build configuration list for PBXNativeTarget "Pods-jxlCoderTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -727,6 +762,15 @@
 			buildConfigurations = (
 				18EB1ED543F75C9BE7949A4102C09BD2 /* Debug */,
 				D3EB2FD6F1433395AD7963F2871FCF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9BEFB1A70A026EA80752BF7C795989 /* Build configuration list for PBXNativeTarget "JxlCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD19B268570B9C93E77218C093FF302E /* Debug */,
+				72E78469836CD13D7407771D4930B648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
